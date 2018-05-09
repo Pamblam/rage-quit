@@ -13,7 +13,11 @@ A tool written in Node to rage quit Reddit.
  7) The small bold text under "personal use script" is the Client ID. Take note of the text after "Secret" as well.
  8) In the downloaded software, open the file called `.env`. Provide the Client ID, Client Secret, Reddit Username and Password. If you want to edit all your posts or comments with a custom message instead of deleting them, you may edit the `QUIT_MSG`. If you want to delete comments instead of editing them, set `DELETE_COMMENTS` to the value of `1`, else set it to `0`.  If you want to delete posts (submissions) instead of editing them, set `DELETE_POSTS` to the value of `1`, else set it to `0`.  Save the file.
  9) In the command prompt, navigate to the directory where you downloaded the software and run the command: `node run`.
- 10) It will print out the URL of each comment or post that was edited or deleted. When it's done you can deactivate your Reddit account.
+ 10) It will print out the URL of each comment or post that was edited or deleted. When it's done you can deactivate your Reddit account from your account preferences > deactivate tab.
+
+**Please Note:**
+
+Due to API rate-limiting, you may have to wait a minute and run the script again if you have a lot of content to delete.
 
 ## License
 
