@@ -2,7 +2,7 @@
   "name": "rage-quit",
   "version": "1.0.0",
   "description": "quit reddit in a blaze of glory",
-  "main": "index.js",
+  "main": "run.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/Pamblam/rage-quit/issues"
   },
-  "homepage": "https://github.com/Pamblam/rage-quit#readme"
+  "homepage": "https://github.com/Pamblam/rage-quit#readme",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "snoowrap": "^1.15.2"
+  }
 }
