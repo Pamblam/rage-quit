@@ -1,6 +1,6 @@
 {
   "name": "rage-quit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "quit reddit in a blaze of glory",
   "main": "run.js",
   "scripts": {
