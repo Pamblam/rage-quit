@@ -1,0 +1,23 @@
+{
+  "name": "rage-quit",
+  "version": "1.0.0",
+  "description": "quit reddit in a blaze of glory",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pamblam/rage-quit.git"
+  },
+  "keywords": [
+    "reddit",
+    "rage-quit"
+  ],
+  "author": "pamblam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pamblam/rage-quit/issues"
+  },
+  "homepage": "https://github.com/Pamblam/rage-quit#readme"
+}
