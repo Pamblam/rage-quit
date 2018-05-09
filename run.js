@@ -1,9 +1,6 @@
 require('dotenv').config();
 const snoowrap = require('snoowrap');
 
-console.log(process.env.DELETE_COMMENTS);
-process.exit();
-
 const reddit = new snoowrap({
   userAgent: 'rage-quit',
   clientId: process.env.CLIENT_ID,
